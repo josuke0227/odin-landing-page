@@ -34,6 +34,7 @@ a {
   cursor: pointer;
 }
 
+/* hero */
 /* hero text */
 h1 {
   font-weight: 800;
@@ -44,6 +45,14 @@ h1 {
   color: #e5e7eb;
   font-size: 18px;
   font-weight: 300;
+}
+
+/* image placeholder */
+.image-placeholder {
+  background-color: gray;
+  color: #e5e7eb;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* Button */
