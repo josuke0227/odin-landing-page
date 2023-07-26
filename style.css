@@ -35,16 +35,29 @@ a {
 }
 
 /* hero */
+.hero-content-container {
+  display: flex;
+  gap: 32px;
+}
+
+.hero-content-right,
+.image-placeholder {
+  flex: 1 1 0;
+}
+
 /* hero text */
 h1 {
+  font-size: 48px;
   font-weight: 800;
   color: #f0faf8;
+  margin: 0;
 }
 
 .hero-text {
   color: #e5e7eb;
   font-size: 18px;
   font-weight: 300;
+  margin-top: 0;
 }
 
 /* image placeholder */
@@ -52,7 +65,9 @@ h1 {
   background-color: gray;
   color: #e5e7eb;
   font-weight: 400;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Button */
