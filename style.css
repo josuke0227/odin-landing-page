@@ -7,6 +7,12 @@
 }
 
 /* Nav bar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
   color: #f0faf8;
   font-size: 24px;
