@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
 
 * {
   background-color: #1f2937;
@@ -44,4 +44,25 @@ h1 {
   color: #e5e7eb;
   font-size: 18px;
   font-weight: 300;
+}
+
+/* Button */
+button {
+  color: #f0faf8;
+  font-weight: 500;
+  font-size: 18px;
+  min-width: 125px;
+  padding: 4px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #3882f6;
+  border: 2px solid #3882f6;
+}
+
+.outlined {
+  background-color: inherit;
+  border: 2px solid #f0faf8;
 }
