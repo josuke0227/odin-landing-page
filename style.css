@@ -138,3 +138,9 @@ cite + p {
   color: #e5e7eb;
   font-weight: 400;
 }
+
+footer > p {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 400;
+}
