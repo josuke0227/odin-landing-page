@@ -164,6 +164,24 @@ cite + p {
   text-align: end;
 }
 
+/* Signup */
+.signup-container {
+  height: 40vh;
+}
+
+.signup-content {
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signup-content > button {
+  flex: 0 0 auto;
+}
+
 .signup-header {
   font-weight: 700;
   color: #f9faf8;
@@ -174,6 +192,10 @@ cite + p {
   font-size: 18px;
   color: #e5e7eb;
   font-weight: 400;
+}
+
+footer {
+  background-color: #1f2937;
 }
 
 footer > p {
