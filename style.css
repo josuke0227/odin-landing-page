@@ -15,7 +15,7 @@ nav {
 }
 
 .logo {
-  color: #f0faf8;
+  color: #f9faf8;
   font-size: 24px;
   font-weight: 700;
 }
@@ -51,7 +51,7 @@ a {
 h1 {
   font-size: 48px;
   font-weight: 800;
-  color: #f0faf8;
+  color: #f9faf8;
   margin: 0;
 }
 
@@ -74,7 +74,7 @@ h1 {
 
 /* Button */
 button {
-  color: #f0faf8;
+  color: #f9faf8;
   font-weight: 500;
   font-size: 18px;
   min-width: 125px;
@@ -90,7 +90,7 @@ button {
 
 .outlined {
   background-color: inherit;
-  border: 2px solid #f0faf8;
+  border: 2px solid #f9faf8;
 }
 
 /* Information */
@@ -113,4 +113,28 @@ h2 {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
+}
+
+/* Testimonial section */
+cite {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+cite + p {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.signup-header {
+  font-weight: 700;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.signup-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 400;
 }
