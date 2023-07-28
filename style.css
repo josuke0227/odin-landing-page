@@ -6,6 +6,14 @@
   margin: 0;
 }
 
+.px_m {
+  padding: 0 150px;
+}
+
+.px_l {
+  padding: 0 280px;
+}
+
 /* Nav bar */
 nav {
   display: flex;
@@ -46,8 +54,8 @@ a {
 
 .hero-content-container {
   display: flex;
-  gap: 32px;
-  padding: 150px 0;
+  gap: 64px;
+  padding: 200px 0;
   flex: 1 1 auto;
 }
 
@@ -167,6 +175,8 @@ cite + p {
 /* Signup */
 .signup-container {
   height: 40vh;
+  display: flex;
+  align-items: center;
 }
 
 .signup-content {
@@ -176,6 +186,7 @@ cite + p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex: 1;
 }
 
 .signup-content > button {
