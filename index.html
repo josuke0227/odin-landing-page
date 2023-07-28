@@ -6,10 +6,10 @@
     <title>My Landing Page</title>
   </head>
   <body>
-    <div class="hero-container px_m">
+    <div class="hero-container bg-dark px_m">
       <nav>
-        <span class="logo">Header Logo</span>
-        <ul>
+        <span class="logo text-primary">Header Logo</span>
+        <ul class="text-secondary">
           <li><a> header link one </a></li>
           <li><a> header link two </a></li>
           <li><a> header link three </a></li>
@@ -17,14 +17,12 @@
       </nav>
       <section class="hero-content-container">
         <div class="hero-content-right">
-          <div class="hero-text">
-            <h1>This website is awesome</h1>
-            <p class="hero-text">
-              This website has some subtext that goes here under the main title.
-              It's a smaller font and the color is lower contrast
-            </p>
-          </div>
-          <button class="primary">Sign up</button>
+          <h1 class="text-primary">This website is awesome</h1>
+          <p class="hero-text text-secondary">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button class="primary text-primary">Sign up</button>
         </div>
         <div class="image-placeholder">this is a placeholder for an image</div>
       </section>
@@ -59,28 +57,26 @@
       </div>
     </section>
     <section class="testimonial px_l">
-      <div>
-        <cite>
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that it looks nice.
-        </cite>
+      <cite>
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filling up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice.
         <p>-Thor, God of Thunder</p>
-      </div>
+      </cite>
     </section>
     <section class="signup-container px_m">
       <div class="signup-content">
         <div>
-          <p class="signup-header">Call to action! It's time!</p>
-          <p class="signup-text">
+          <p class="signup-header text-primary">Call to action! It's time!</p>
+          <p class="signup-text text-secondary">
             Sign up for our product by clicking that button right over there!
           </p>
         </div>
-        <button class="outlined">Sign up</button>
+        <button class="outlined text-primary">Sign up</button>
       </div>
     </section>
-    <footer>
-      <p>Copyright &copy; The Odin Project 2023</p>
+    <footer class="bg-dark">
+      <p class="text-primary">Copyright &copy; The Odin Project 2023</p>
     </footer>
   </body>
 </html>

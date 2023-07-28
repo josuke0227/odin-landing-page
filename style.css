@@ -14,17 +14,27 @@
   padding: 0 280px;
 }
 
+.bg-dark {
+  background-color: #1f2937;
+}
+
+.text-primary {
+  color: #f9faf8;
+}
+
+.text-secondary {
+  color: #e5e7eb;
+}
+
 /* Nav bar */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1f2937;
   padding: 18px 0;
 }
 
 .logo {
-  color: #f9faf8;
   font-size: 24px;
   font-weight: 700;
 }
@@ -38,7 +48,6 @@ ul {
 }
 
 a {
-  color: #e5e7eb;
   font-size: 18px;
   text-decoration: none;
   cursor: pointer;
@@ -47,7 +56,6 @@ a {
 /* hero */
 .hero-container {
   height: 100vh;
-  background-color: #1f2937;
   display: flex;
   flex-direction: column;
 }
@@ -72,12 +80,10 @@ a {
 h1 {
   font-size: 48px;
   font-weight: 800;
-  color: #f9faf8;
   margin: 0;
 }
 
 .hero-text {
-  color: #e5e7eb;
   font-size: 18px;
   font-weight: 300;
   margin: 0 0 17px 0;
@@ -95,7 +101,6 @@ h1 {
 
 /* Button */
 button {
-  color: #f9faf8;
   font-weight: 500;
   font-size: 18px;
   min-width: 125px;
@@ -166,7 +171,8 @@ cite {
   font-weight: 300;
 }
 
-cite + p {
+cite p {
+  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   text-align: end;
@@ -195,18 +201,15 @@ cite + p {
 
 .signup-header {
   font-weight: 700;
-  color: #f9faf8;
   font-size: 24px;
 }
 
 .signup-text {
   font-size: 18px;
-  color: #e5e7eb;
   font-weight: 400;
 }
 
 footer {
-  background-color: #1f2937;
   height: 10vh;
   display: flex;
   align-items: center;
@@ -214,7 +217,6 @@ footer {
 }
 
 footer > p {
-  color: #f9faf8;
   font-size: 18px;
   font-weight: 400;
 }
